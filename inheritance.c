@@ -104,6 +104,10 @@ void print_family(person *p, int generation)
     }
     else
     {
+        for (int i = 0; i < generation - 2; i++)
+        {
+            printf("Great-");
+        }
         printf("Grandparent (Generation %i): blood type %c%c\n", generation, p->alleles[0], p->alleles[1]);
     }
 
