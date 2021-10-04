@@ -41,7 +41,7 @@ person *create_family(int generations)
 {
     // TODO: Allocate memory for new person
 
-    // If there are still generations left to create...
+    // If there are still generations left to create
     if (generations > 1)
     {
         // TODO: Create two new parents for current person by recursively calling create_family
@@ -54,7 +54,7 @@ person *create_family(int generations)
 
     }
 
-    // If there are no generations left to create...
+    // If there are no generations left to create
     else
     {
         // TODO: Set parent pointers to NULL
